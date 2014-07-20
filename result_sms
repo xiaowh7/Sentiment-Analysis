@@ -1,0 +1,36 @@
+seven@seven-HP:~/Twitter-Sentiment-Analysis-master/sentence-level-analysis/scorer$ python scorer.py B ../code/ans_sms.txt ../dataset/sms-test-gold-B.tsv 
+TASK B
+Comparing predictions ../code/ans_sms.txt to gold standard ../dataset/sms-test-gold-B.tsv.
+File: ../code/ans_sms.txt -- no errors found
+Prediction file: 2094 lines
+                 2094 unique
+Breakdown by class:
+positive 	341
+neutral 	1386
+negative 	367
+File: ../dataset/sms-test-gold-B.tsv -- no errors found
+
+
+Gold standard: 2094 lines
+               2094 unique
+Breakdown by class:
+positive 	492
+neutral 	1208
+negative 	394
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      280|       44|      168
+ negative|       14|      241|      139
+  neutral|       47|       82|     1079
+
+
+Scores:
+class	                       prec	              recall     fscore
+positive 	   (280/341) 0.8211	    (280/492) 0.5691	 0.6723	
+negative 	   (241/367) 0.6567	    (241/394) 0.6117	 0.6334	
+neutral 	 (1079/1386) 0.7785	  (1079/1208) 0.8932	 0.8319	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.6528

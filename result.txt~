@@ -1,0 +1,89 @@
+1. Without findFeatures 60.26
+2. Without findFeatures and wordgram 57.76
+3. Without findFeatures and chargram 58.37
+4. Without all lexicon features 66.33  2166/3267
+5. Without manual lexicon features 67.03
+6. Without automatic lexicon features 67.25
+7. Including all 68.66 2243/3267
+8. Including 4gram 69 2254/3267
+9. Including NECEmotionLexicon 69.11 2257/3267
+10. Add f4gram1.txt 69.57 2273/3267
+
+71.0743801
+seven@seven-HP:~/Twitter-Sentiment-Analysis-master/sentence-level-analysis/scorer$ python scorer.py B ../code/ans.txt ../dataset/test-gold-B.csv 
+TASK B
+Comparing predictions ../code/ans.txt to gold standard ../dataset/test-gold-B.csv.
+File: ../code/ans.txt -- no errors found
+Prediction file: 3267 lines
+                 3267 unique
+Breakdown by class:
+positive 	986
+neutral 	1915
+negative 	366
+File: ../dataset/test-gold-B.csv -- no errors found
+
+
+Gold standard: 3267 lines
+               3267 unique
+Breakdown by class:
+positive 	1331
+neutral 	1442
+negative 	494
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      818|       54|      459
+ negative|       27|      257|      210
+  neutral|      141|       55|     1246
+
+
+Scores:
+class	                       prec	              recall     fscore
+positive 	   (818/986) 0.8296	   (818/1331) 0.6146	 0.7061	
+negative 	   (257/366) 0.7022	    (257/494) 0.5202	 0.5977	
+neutral 	 (1246/1915) 0.6507	  (1246/1442) 0.8641	 0.7423	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.6519	
+
+
+76.4087870105
+seven@seven-HP:~/Twitter-Sentiment-Analysis-master/sentence-level-analysis/scorer$ python scorer.py B ../code/ans_sms.txt ../dataset/sms-test-gold-B.tsv 
+TASK B
+Comparing predictions ../code/ans_sms.txt to gold standard ../dataset/sms-test-gold-B.tsv.
+File: ../code/ans_sms.txt -- no errors found
+Prediction file: 2094 lines
+                 2094 unique
+Breakdown by class:
+positive 	341
+neutral 	1386
+negative 	367
+File: ../dataset/sms-test-gold-B.tsv -- no errors found
+
+
+Gold standard: 2094 lines
+               2094 unique
+Breakdown by class:
+positive 	492
+neutral 	1208
+negative 	394
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      280|       44|      168
+ negative|       14|      241|      139
+  neutral|       47|       82|     1079
+
+
+Scores:
+class	                       prec	              recall     fscore
+positive 	   (280/341) 0.8211	    (280/492) 0.5691	 0.6723	
+negative 	   (241/367) 0.6567	    (241/394) 0.6117	 0.6334	
+neutral 	 (1079/1386) 0.7785	  (1079/1208) 0.8932	 0.8319	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.6528	
+
+
