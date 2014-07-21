@@ -23,14 +23,14 @@
 
 import csv
 predfile = open('taskB.pred', 'r')
-# testfile = open('../dataset/test-gold-B.csv', 'r')
-# outfile = open('ans.txt', 'w')
+testfile = open('../dataset/test-gold-B.csv', 'r')
+outfile = open('ans.txt', 'w')
 # testfile = open('../dataset/sms-test-gold-B.csv', 'r')
 # outfile = open('ans_sms.txt', 'w')
 # testfile = open('../debate08/test.csv', 'r')
 # outfile = open('ans_debate08.txt', 'w')
-testfile = open('../Apoorv/test.csv', 'r')
-outfile = open('ans_Apoorv.txt', 'w')
+# testfile = open('../Apoorv/test.csv', 'r')
+# outfile = open('ans_Apoorv.txt', 'w')
 # testfile = open('../IT/full.csv', 'r')
 # outfile = open('ans_IT.txt', 'w')
 reader = csv.reader(testfile, delimiter='\t')

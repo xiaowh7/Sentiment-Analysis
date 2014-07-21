@@ -86,20 +86,7 @@ if __name__ == '__main__':
 
                 MPQAContextVector = findContextFeature1(dependency, MPQADict, intensifiers)
                 vector.extend(MPQAContextVector)
-                # LiuBingContextVector = findContextFeature(dependency, LiuBingDict)
-                # vector.extend(LiuBingContextVector)
-                #
-                # MPQAContextVector = findContextFeature(dependency, MPQADict)
-                # vector.extend(MPQAContextVector)
-                #
-                # NRCEmotionContextVector = findContextFeature(dependency, NRCEmotionDict)
-                # vector.extend(NRCEmotionContextVector)
-                #
-                # PosNegWordsContextVector = findContextFeature(dependency, PosNegWords)
-                # vector.extend(PosNegWordsContextVector)
-                #
-                # AFINNContextVector = findContextFeature(dependency, AFINNDict)
-                # vector.extend(AFINNContextVector)
+
 
                 #find char and word gram feature
                 # chargramVector = findChargram(tweet, Char3Model, Char4Model, Char5Model)
@@ -149,7 +136,6 @@ if __name__ == '__main__':
     print "Feature Vectors Train Created....."
 
     """for each new tweet create a feature vector and feed it to above model to get label"""
-
     testingLabel = []
     data = []
     data1 = []
@@ -183,21 +169,6 @@ if __name__ == '__main__':
 
                 MPQAContextVector = findContextFeature1(dependency, MPQADict, intensifiers)
                 vector.extend(MPQAContextVector)
-
-                # LiuBingContextVector = findContextFeature(dependency, LiuBingDict)
-                # vector.extend(LiuBingContextVector)
-                #
-                # MPQAContextVector = findContextFeature(dependency, MPQADict)
-                # vector.extend(MPQAContextVector)
-                #
-                # NRCEmotionContextVector = findContextFeature(dependency, NRCEmotionDict)
-                # vector.extend(NRCEmotionContextVector)
-                #
-                # PosNegWordsContextVector = findContextFeature(dependency, PosNegWords)
-                # vector.extend(PosNegWordsContextVector)
-                #
-                # AFINNContextVector = findContextFeature(dependency, AFINNDict)
-                # vector.extend(AFINNContextVector)
 
                 #find char and word gram feature
                 # chargramVector = findChargram(tweet, Char3Model, Char4Model, Char5Model)
