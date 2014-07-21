@@ -1,0 +1,35 @@
+TASK B
+Comparing predictions ../code/ans_debate08.txt to gold standard ../debate08/test.csv.
+File: ../code/ans_debate08.txt -- no errors found
+Prediction file: 795 lines
+                 795 unique
+Breakdown by class:
+positive 	214
+neutral 	133
+negative 	448
+File: ../debate08/test.csv -- no errors found
+
+
+Gold standard: 795 lines
+               795 unique
+Breakdown by class:
+positive 	226
+neutral 	197
+negative 	372
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      124|       61|       41
+ negative|       33|      304|       35
+  neutral|       57|       83|       57
+
+
+Scores:
+class	                       prec	              recall     fscore
+positive 	   (124/214) 0.5794	    (124/226) 0.5487	 0.5636	
+negative 	   (304/448) 0.6786	    (304/372) 0.8172	 0.7415	
+neutral 	    (57/133) 0.4286	     (57/197) 0.2893	 0.3455	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.6525	

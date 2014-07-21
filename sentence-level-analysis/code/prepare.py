@@ -285,14 +285,19 @@ def loadAFINNLexicon():
     return dict
 
 def loadSentenceDependency():
-    # trainFile = "../Apoorv/extended2_dependency_train.txt"
     # trainFile = "../Apoorv/Apoorv_dependency_train.txt"
-    # testFile = "../Apoorv/Apoorv_dependency_test.txt"
+    # trainFile = "../Apoorv/extended1_dependency_train.txt"
+    trainFile = "../Apoorv/extendedAll_dependency_train.txt"
+    testFile = "../Apoorv/Apoorv_dependency_test.txt"
+
     # trainFile = "../debate08/debate08_dependency_train.txt"
     # testFile = "../debate08/debate08_dependency_test.txt"
-    trainFile = "../dataset/extended2_dependency_train.txt"
+
     # trainFile = "../dataset/dependency_train.txt"
-    testFile = "../dataset/dependency_test.txt"
+    # trainFile = "../dataset/extended1_dependency_train.txt"
+    # trainFile = "../dataset/extended3_dependency_train.txt"
+    # trainFile = "../dataset/extendedAll_dependency_train.txt"
+    # testFile = "../dataset/dependency_test.txt"
     # testFile = "../dataset/sms_dependency_test.txt"
     trainDpds = getDependency(trainFile)
     testDpds = getDependency(testFile)

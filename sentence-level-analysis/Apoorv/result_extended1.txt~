@@ -1,3 +1,4 @@
+Accuracy = 67.9217% (451/664) (classification)
 TASK B
 Comparing predictions ../code/ans_Apoorv.txt to gold standard ../Apoorv/test.csv.
 File: ../code/ans_Apoorv.txt -- no errors found

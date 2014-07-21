@@ -1,13 +1,12 @@
-Accuracy = 70.7377% (2311/3267) (classification)
 TASK B
 Comparing predictions ../code/ans.txt to gold standard ../dataset/test-gold-B.csv.
 File: ../code/ans.txt -- no errors found
 Prediction file: 3267 lines
                  3267 unique
 Breakdown by class:
-positive 	980
-neutral 	1889
-negative 	398
+positive 	1213
+neutral 	1480
+negative 	574
 File: ../dataset/test-gold-B.csv -- no errors found
 
 
@@ -22,15 +21,15 @@ negative 	494
 Confusion table:
 gs \ pred| positive| negative|  neutral
 ---------------------------------------
- positive|      806|       61|      464
- negative|       27|      279|      188
-  neutral|      147|       58|     1237
+ positive|      929|      104|      298
+ negative|       36|      356|      102
+  neutral|      248|      114|     1080
 
 
 Scores:
 class	                       prec	              recall     fscore
-positive 	   (806/980) 0.8224	   (806/1331) 0.6056	 0.6975	
-negative 	   (279/398) 0.7010	    (279/494) 0.5648	 0.6256	
-neutral 	 (1237/1889) 0.6548	  (1237/1442) 0.8578	 0.7427	
+positive 	  (929/1213) 0.7659	   (929/1331) 0.6980	 0.7303	
+negative 	   (356/574) 0.6202	    (356/494) 0.7206	 0.6667	
+neutral 	 (1080/1480) 0.7297	  (1080/1442) 0.7490	 0.7392	
 -----------------------------------------------------------------------
-average(pos and neg)                                             0.6615
+average(pos and neg)                                             0.6985	

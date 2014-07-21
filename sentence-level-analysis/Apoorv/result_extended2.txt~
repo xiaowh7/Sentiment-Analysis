@@ -1,12 +1,13 @@
+Accuracy = 65.9639% (438/664) (classification)
 TASK B
 Comparing predictions ../code/ans_Apoorv.txt to gold standard ../Apoorv/test.csv.
 File: ../code/ans_Apoorv.txt -- no errors found
 Prediction file: 664 lines
                  664 unique
 Breakdown by class:
-positive 	227
-neutral 	186
-negative 	251
+positive 	220
+neutral 	196
+negative 	248
 File: ../Apoorv/test.csv -- no errors found
 
 
@@ -21,15 +22,15 @@ negative 	227
 Confusion table:
 gs \ pred| positive| negative|  neutral
 ---------------------------------------
- positive|      191|       51|       81
- negative|       15|      179|       33
-  neutral|       21|       21|       72
+ positive|      186|       51|       86
+ negative|       13|      178|       36
+  neutral|       21|       19|       74
 
 
 Scores:
 class	                       prec	              recall     fscore
-positive 	   (191/227) 0.8414	    (191/323) 0.5913	 0.6945	
-negative 	   (179/251) 0.7131	    (179/227) 0.7885	 0.7490	
-neutral 	    (72/186) 0.3871	     (72/114) 0.6316	 0.4800	
+positive 	   (186/220) 0.8455	    (186/323) 0.5759	 0.6851	
+negative 	   (178/248) 0.7177	    (178/227) 0.7841	 0.7495	
+neutral 	    (74/196) 0.3776	     (74/114) 0.6491	 0.4774	
 -----------------------------------------------------------------------
-average(pos and neg)                                             0.7217
+average(pos and neg)                                             0.7173	
