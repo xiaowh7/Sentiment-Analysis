@@ -17,7 +17,7 @@
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$testCharNgram.coverage" NAME="testCharNgram Coverage Results" MODIFIED="1401176857451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$mainIT.coverage" NAME="mainIT Coverage Results" MODIFIED="1403100081223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$preprocess.coverage" NAME="preprocess Coverage Results" MODIFIED="1403165268525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/IT" />
-    <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$featureExtractor.coverage" NAME="featureExtractor Coverage Results" MODIFIED="1405840178788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
+    <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$featureExtractor.coverage" NAME="featureExtractor Coverage Results" MODIFIED="1405934398724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$replaceExpand.coverage" NAME="replaceExpand Coverage Results" MODIFIED="1405562400995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$analyse.coverage" NAME="analyse Coverage Results" MODIFIED="1405869544229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$classifier.coverage" NAME="classifier Coverage Results" MODIFIED="1403095520164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
@@ -45,11 +45,11 @@
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$mainApoorv.coverage" NAME="mainApoorv Coverage Results" MODIFIED="1405930719949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$test.coverage" NAME="test Coverage Results" MODIFIED="1405785553680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$testMPQA.coverage" NAME="testMPQA Coverage Results" MODIFIED="1401692200987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
-    <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$transfer.coverage" NAME="transfer Coverage Results" MODIFIED="1405930495862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
+    <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$transfer.coverage" NAME="transfer Coverage Results" MODIFIED="1405934538996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$unigramFilter.coverage" NAME="unigramFilter Coverage Results" MODIFIED="1398859873281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$hybrid.coverage" NAME="hybrid Coverage Results" MODIFIED="1399969833619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$testNRCEmotionLexicon.coverage" NAME="testNRCEmotionLexicon Coverage Results" MODIFIED="1401789835343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
-    <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$mainDebate08.coverage" NAME="mainDebate08 Coverage Results" MODIFIED="1405925139630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
+    <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$mainDebate08.coverage" NAME="mainDebate08 Coverage Results" MODIFIED="1405934372145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
     <SUITE FILE_PATH="coverage/Twitter-Sentiment-Analysis-master$getDependency.coverage" NAME="getDependency Coverage Results" MODIFIED="1405479161914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sentence-level-analysis/code" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -68,7 +68,27 @@
         <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/transfer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="954">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistics.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentence-level-analysis/debate08/statistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifier.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/classifier.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -87,16 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analyse.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/analyse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="666">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="mainApoorv.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/mainApoorv.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,7 +120,7 @@
       <file leaf-file-name="featureExtractor.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/featureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2970" max-vertical-offset="17622">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2934" max-vertical-offset="17586">
               <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
               <folding>
                 <marker date="1405842659163" expanded="false" signature="25863:25955" placeholder="..." />
@@ -120,21 +130,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="prepare.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/prepare.py">
+      <file leaf-file-name="getDependency.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/getDependency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4867" max-vertical-offset="5670">
-              <caret line="277" column="23" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainDebate08.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="prepare.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/prepare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35185185" vertical-offset="5011" max-vertical-offset="5742">
+              <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainDebate08.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/mainDebate08.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28830314" vertical-offset="4235" max-vertical-offset="4842">
-              <caret line="248" column="12" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2534" max-vertical-offset="4842">
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -191,14 +211,14 @@
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/test.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/dataset/neg_mod.txt" />
         <option value="$PROJECT_DIR$/MPQALexicon/MPQALexicon/subjclueslen1-HLTEMNLP05.tff" />
-        <option value="$PROJECT_DIR$/sentence-level-analysis/code/mainDebate08.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/featureExtractor.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/analyse.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/IT/statistics.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/stopWords.txt" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/SentiStrength/statistics.py" />
-        <option value="$PROJECT_DIR$/sentence-level-analysis/debate08/statistics.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/mainSemeval.py" />
+        <option value="$PROJECT_DIR$/sentence-level-analysis/code/mainDebate08.py" />
+        <option value="$PROJECT_DIR$/sentence-level-analysis/debate08/statistics.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/transfer.py" />
         <option value="$PROJECT_DIR$/sentence-level-analysis/code/prepare.py" />
       </list>
@@ -312,7 +332,7 @@
       <recent name="$PROJECT_DIR$/sentence-level-analysis/SentiStrength" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mainApoorv">
+  <component name="RunManager" selected="Python.transfer">
     <configuration default="false" name="transfer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,7 +385,7 @@
       <module name="Twitter-Sentiment-Analysis-master" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentence-level-analysis/code/mainDebate08.py" />
-      <option name="PARAMETERS" value="../debate08/train_final.txt ../debate08/test_final.txt" />
+      <option name="PARAMETERS" value="../debate08/final_train_without_neutral.csv ../debate08/final_test_without_neutral.csv" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -389,7 +409,7 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="analyse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="featureExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -402,11 +422,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Twitter-Sentiment-Analysis-master" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentence-level-analysis/code/analyse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentence-level-analysis/code/featureExtractor.py" />
       <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -565,15 +583,15 @@
       <item index="1" class="java.lang.String" itemvalue="Python.mainSemeval" />
       <item index="2" class="java.lang.String" itemvalue="Python.mainDebate08" />
       <item index="3" class="java.lang.String" itemvalue="Python.mainApoorv" />
-      <item index="4" class="java.lang.String" itemvalue="Python.analyse" />
+      <item index="4" class="java.lang.String" itemvalue="Python.featureExtractor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mainApoorv" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mainSemeval" />
-        <item index="2" class="java.lang.String" itemvalue="Python.transfer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.mainDebate08" />
-        <item index="4" class="java.lang.String" itemvalue="Python.analyse" />
+        <item index="0" class="java.lang.String" itemvalue="Python.transfer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.featureExtractor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mainDebate08" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mainApoorv" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mainSemeval" />
       </list>
     </recent_temporary>
   </component>
@@ -591,18 +609,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="119" y="84" width="1628" height="990" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19798657" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296501" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18773705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23767383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4854586" sideWeight="0.5006321" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25950783" sideWeight="0.5006321" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25950783" sideWeight="0.4987358" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25950783" sideWeight="0.4987358" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -706,13 +724,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/testLiuBing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1368">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence-level-analysis/SentiStrength/final.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="66618">
@@ -754,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/pymodules/python2.7/svmutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="4464">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence-level-analysis/SentiStrength/balanced.csv">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -778,16 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/debate08/train_final.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.603418" vertical-offset="22984" max-vertical-offset="28728">
-          <caret line="1589" column="29" selection-start-line="1589" selection-start-column="29" selection-end-line="1589" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -941,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="468">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/replaceExpand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2702" max-vertical-offset="4446">
@@ -987,17 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32181168" vertical-offset="0" max-vertical-offset="839">
           <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/featureExtractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2816" max-vertical-offset="17622">
-          <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
-          <folding>
-            <marker date="1405842659163" expanded="false" signature="25863:25955" placeholder="..." />
-            <marker date="1405842659163" expanded="false" signature="29107:29910" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,38 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/debate08/statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029654035" vertical-offset="0" max-vertical-offset="607">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/prepare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4867" max-vertical-offset="5670">
-          <caret line="277" column="23" selection-start-line="277" selection-start-column="23" selection-end-line="277" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/transfer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="954">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/getDependency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14827017" vertical-offset="0" max-vertical-offset="607">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/analyse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="666">
@@ -1090,14 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/mainApoorv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4716">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/mainSemeval.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1121" max-vertical-offset="4320">
@@ -1109,10 +1045,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/getDependency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/mainApoorv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4716">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/featureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2816" max-vertical-offset="17622">
+          <caret line="165" column="44" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
+          <folding>
+            <marker date="1405842659163" expanded="false" signature="25863:25955" placeholder="..." />
+            <marker date="1405842659163" expanded="false" signature="29107:29910" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/debate08/combine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/debate08/extractTweets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/pymodules/python2.7/svmutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0755287" vertical-offset="1418" max-vertical-offset="4464">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/mainDebate08.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28830314" vertical-offset="4235" max-vertical-offset="4842">
-          <caret line="248" column="12" selection-start-line="248" selection-start-column="12" selection-end-line="248" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2534" max-vertical-offset="4842">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/debate08/statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="954">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sentence-level-analysis/code/prepare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35185185" vertical-offset="5011" max-vertical-offset="5742">
+          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding />
         </state>
       </provider>

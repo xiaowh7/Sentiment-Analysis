@@ -287,11 +287,15 @@ def loadAFINNLexicon():
 def loadSentenceDependency():
     # trainFile = "../Apoorv/Apoorv_dependency_train.txt"
     # trainFile = "../Apoorv/extended1_dependency_train.txt"
-    trainFile = "../Apoorv/extendedAll_dependency_train.txt"
-    testFile = "../Apoorv/Apoorv_dependency_test.txt"
+    # trainFile = "../Apoorv/extended2_dependency_train.txt"
+    # trainFile = "../Apoorv/extendedAll_dependency_train.txt"
+    # testFile = "../Apoorv/Apoorv_dependency_test.txt"
 
     # trainFile = "../debate08/debate08_dependency_train.txt"
-    # testFile = "../debate08/debate08_dependency_test.txt"
+    trainFile = "../debate08/extended1_dependency_train.txt"
+    # trainFile = "../debate08/extended2_dependency_train.txt"
+    # trainFile = "../debate08/extendedAll_dependency_train.txt"
+    testFile = "../debate08/debate08_dependency_test.txt"
 
     # trainFile = "../dataset/dependency_train.txt"
     # trainFile = "../dataset/extended1_dependency_train.txt"

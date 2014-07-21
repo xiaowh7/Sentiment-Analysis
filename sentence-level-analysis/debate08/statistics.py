@@ -3,13 +3,13 @@ count = 0
 poscnt = 0
 negcnt = 0
 neucnt = 0
-inFile = open('train_final.txt', 'r')
+inFile = open('train.csv', 'r')
 
-outFile = open("train_without_neutral.txt", "w")
+outFile = open("train_without_neutral.csv", "w")
 for line in inFile.readlines():
     data = line.strip("\n").split('\t')
     count += 1
-    sentiment = data[3]
+    sentiment = data[2]
     if sentiment == 'positive':
         poscnt += 1
         outFile.write(line)
