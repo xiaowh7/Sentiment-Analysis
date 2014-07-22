@@ -292,17 +292,17 @@ def loadSentenceDependency():
     # testFile = "../Apoorv/Apoorv_dependency_test.txt"
 
     # trainFile = "../debate08/debate08_dependency_train.txt"
-    trainFile = "../debate08/extended1_dependency_train.txt"
+    # trainFile = "../debate08/extended1_dependency_train.txt"
     # trainFile = "../debate08/extended2_dependency_train.txt"
     # trainFile = "../debate08/extendedAll_dependency_train.txt"
-    testFile = "../debate08/debate08_dependency_test.txt"
+    # testFile = "../debate08/debate08_dependency_test.txt"
 
     # trainFile = "../dataset/dependency_train.txt"
     # trainFile = "../dataset/extended1_dependency_train.txt"
     # trainFile = "../dataset/extended3_dependency_train.txt"
-    # trainFile = "../dataset/extendedAll_dependency_train.txt"
+    trainFile = "../dataset/extendedAll_dependency_train.txt"
     # testFile = "../dataset/dependency_test.txt"
-    # testFile = "../dataset/sms_dependency_test.txt"
+    testFile = "../dataset/sms_dependency_test.txt"
     trainDpds = getDependency(trainFile)
     testDpds = getDependency(testFile)
     return trainDpds, testDpds
