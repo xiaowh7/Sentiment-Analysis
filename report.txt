@@ -1,0 +1,50 @@
+• word ngrams: presence or absence of contiguous sequences of 1, 2, 3, and 4 tokens; non-contiguous ngrams (ngrams with one token replaced by *);
+• character ngrams: presence or absence of contiguous sequences of 3, 4, and 5 characters;
+• all-caps: the number of tokens with all characters in upper case;
+• POS: the number of occurrences of each part-of-speech tag;
+• hashtags: the number of hashtags;
+• negation: the number of negated contexts.
+
+• sentiment lexicons:
+– Automatic lexicons. The following sets of features are generated separately for the Hashtag Sentiment Lexicon sand the Sentiment140 Lexicons. For each token w occurring in a tweet and present in the lexicons, we use its sentiment score to compute:
+∗ the score of the last token in the tweet.
+∗ the maximal score = max w∈tweet score(w);
+∗ the total score = w∈tweet score(w);
+∗ the number of tokens with score(w) = 0;
+These features are calculated for all positive tokens (tokens with sentiment scores greater than zero), for all negative tokens (tokens with sentiment scores less than zero), and for all tokens in a tweet. Similar feature sets are also created for each part-of-speech tag and for hashtags. Separate feature sets are produced for unigrams, bigrams, and non-contiguous pairs.
+
+– Manual lexicons For each of the three manual sentiment lexicons (NRC Emotion Lexicon, Bing Liu’s Lexicon, and MPQA Subjectivity Lexicon), we compute the following four features:
+∗the sum of positive scores for tweet tokens;
+∗the sum of negative scores for tweet tokens;
+We use the score of +1 for positive entries and the score of -1 for negative entries for the NRC Emotion Lexicon and Bing Liu’s Lexicon. For MPQA Subjectivity Lexicon, which provides two grades of the association strength (strong and weak), we use scores +1/-1 for weak associations and +2/-2 for strong associations. The same feature sets are also created for each part-of-speech tag, for hashtags, and for all-caps tokens.
+
+• punctuation:
+– whether the last token contains an exclamation or question mark;
+• emoticons: The polarity of an emoticon is determined with a regular expression given in [4] and manually annotate them. Table 1
+is the snapshot of the dictionary. We categorise the emoticons into four classes: a) Extremely- Positive b) Positive c) Extremely- Negative d) Negative
+ 
+– presence or absence of positive and negative emoticons at any position in the tweet;
+– whether the last token is a positive or negative emoticon;
+• elongated words: the number of words with one character repeated more than two times, for example, soooo;
+
+
+Emoticon Dictionary: We use the emoticons list as given in [4] and manually annotate them. Table 1 is the snapshot of the dictionary. We categorise the emoticons into four classes: a) Extremely- Positive b) Positive c) Extremely- Negative d) Negative
+
+Acronym Dictionary: We crawl the website [1] in order to obtain the acronym expansion of the most commonly used acronyms on the web. The acronym dictionary helps in expanding the tweet text and thereby improves the overall sentiment score (discussed later). The acronym dictionary has 5297 entries. For example, asap has translation As soon as possible.
+
+AFINN 111: AFINN [2] is a list of English words rated for valence with an integer between minus five (negative) and plus five (positive). The words have been manually labeled by Finn rup Nielsen in 2009-2011.
+
+• Tweet NLP [8], a twitter specific tweet tokeniser and tagger. It provides a fast and robust Java-based tokeniser and part-of-speech tagger for Twitter.
+• LibSVM [5] is an integrated software for support vector classification. It supports multiclass classification.
+
+Svmutil Python Library, for implementing Support Vector Machine
+
+
+
+
+
+
+
+
+
+

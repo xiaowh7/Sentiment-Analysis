@@ -74,7 +74,7 @@ if __name__ == '__main__':
                 vector = []
                 # vector, polarityDictionary = findFeatures(tweet, token, polarityDictionary, stopWords, emoticonsDict,
                 #                                           acronymDict)
-                vector, words, hashtags, tweet = findFeatures1(tweet, token, stopWords, emoticonsDict,
+                vector, words, hashtags, tweet1 = findFeatures1(tweet, token, stopWords, emoticonsDict,
                                                           acronymDict, intensifiers)
 
                 #find context feature
@@ -157,7 +157,7 @@ if __name__ == '__main__':
                 vector = []
                 # vector, polarityDictionary = findFeatures(tweet, token, polarityDictionary, stopWords, emoticonsDict,
                 #                                           acronymDict)
-                vector, words, hashtags, tweet = findFeatures1(tweet, token, stopWords, emoticonsDict,
+                vector, words, hashtags, tweet1 = findFeatures1(tweet, token, stopWords, emoticonsDict,
                                                           acronymDict, intensifiers)
 
                 #find context feature

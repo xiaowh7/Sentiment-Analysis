@@ -1,0 +1,36 @@
+TASK B
+Comparing predictions ../code/ans.txt to gold standard ../dataset/test-gold-B.csv.
+File: ../code/ans.txt -- no errors found
+Prediction file: 3267 lines
+                 3267 unique
+Breakdown by class:
+positive 	1192
+neutral 	1549
+negative 	526
+File: ../dataset/test-gold-B.csv -- no errors found
+
+
+Gold standard: 3267 lines
+               3267 unique
+Breakdown by class:
+positive 	1331
+neutral 	1442
+negative 	494
+
+
+Confusion table:
+gs \ pred| positive| negative|  neutral
+---------------------------------------
+ positive|      925|       90|      316
+ negative|       41|      336|      117
+  neutral|      226|      100|     1116
+
+
+Scores:
+class	                       prec	              recall     fscore
+positive 	  (925/1192) 0.7760	   (925/1331) 0.6950	 0.7333	
+negative 	   (336/526) 0.6388	    (336/494) 0.6802	 0.6588	
+neutral 	 (1116/1549) 0.7205	  (1116/1442) 0.7739	 0.7462	
+-----------------------------------------------------------------------
+average(pos and neg)                                             0.6960	
+
