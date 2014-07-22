@@ -84,22 +84,8 @@ if __name__ == '__main__':
                 NRCContextVector = findContextFeature(dependency, NRCUnigram, emoticonsDict)
                 vector.extend(NRCContextVector)
 
-                MPQAContextVector = findContextFeature1(dependency, MPQADict, intensifiers)
-
-                # LiuBingContextVector = findContextFeature(dependency, LiuBingDict)
-                # vector.extend(LiuBingContextVector)
-                #
-                # MPQAContextVector = findContextFeature(dependency, MPQADict)
+                # MPQAContextVector = findContextFeature1(dependency, MPQADict, intensifiers)
                 # vector.extend(MPQAContextVector)
-                #
-                # NRCEmotionContextVector = findContextFeature(dependency, NRCEmotionDict)
-                # vector.extend(NRCEmotionContextVector)
-                #
-                # PosNegWordsContextVector = findContextFeature(dependency, PosNegWords)
-                # vector.extend(PosNegWordsContextVector)
-                #
-                # AFINNContextVector = findContextFeature(dependency, AFINNDict)
-                # vector.extend(AFINNContextVector)
 
                 #find char and word gram feature
                 # chargramVector = findChargram(tweet, Char3Model, Char4Model, Char5Model)
@@ -116,8 +102,10 @@ if __name__ == '__main__':
                 vector = findScore(hashtags, vector)
 
                 # find lexicon score for each pos-tags
+                tags = ['N', 'V', 'R', 'O', 'A']
                 for pos in words:
-                    vector = findScore(words[pos], vector)
+                    if pos in tags:
+                        vector = findScore(words[pos], vector)
 
                 #find score for each lexicon
                 S140Vector = findLexiconScore(tweet, S140Unigram, S140Bigram, S140Pairgram)
@@ -147,7 +135,6 @@ if __name__ == '__main__':
     print "Feature Vectors Train Created....."
 
     """for each new tweet create a feature vector and feed it to above model to get label"""
-
     testingLabel = []
     data = []
     data1 = []
@@ -179,20 +166,8 @@ if __name__ == '__main__':
                 NRCContextVector = findContextFeature(dependency, NRCUnigram, emoticonsDict)
                 vector.extend(NRCContextVector)
 
-                # LiuBingContextVector = findContextFeature(dependency, LiuBingDict)
-                # vector.extend(LiuBingContextVector)
-                #
-                # MPQAContextVector = findContextFeature(dependency, MPQADict)
+                # MPQAContextVector = findContextFeature1(dependency, MPQADict, intensifiers)
                 # vector.extend(MPQAContextVector)
-                #
-                # NRCEmotionContextVector = findContextFeature(dependency, NRCEmotionDict)
-                # vector.extend(NRCEmotionContextVector)
-                #
-                # PosNegWordsContextVector = findContextFeature(dependency, PosNegWords)
-                # vector.extend(PosNegWordsContextVector)
-                #
-                # AFINNContextVector = findContextFeature(dependency, AFINNDict)
-                # vector.extend(AFINNContextVector)
 
                 #find char and word gram feature
                 # chargramVector = findChargram(tweet, Char3Model, Char4Model, Char5Model)
@@ -209,8 +184,10 @@ if __name__ == '__main__':
                 vector = findScore(hashtags, vector)
 
                 # find lexicon score for each pos-tags
+                tags = ['N', 'V', 'R', 'O', 'A']
                 for pos in words:
-                    vector = findScore(words[pos], vector)
+                    if pos in tags:
+                        vector = findScore(words[pos], vector)
 
                 # find score for each lexicon
                 S140Vector = findLexiconScore(tweet, S140Unigram, S140Bigram, S140Pairgram)

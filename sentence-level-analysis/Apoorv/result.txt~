@@ -4,9 +4,9 @@ File: ../code/ans_Apoorv.txt -- no errors found
 Prediction file: 664 lines
                  664 unique
 Breakdown by class:
-positive 	235
-neutral 	197
-negative 	232
+positive 	244
+neutral 	191
+negative 	229
 File: ../Apoorv/test.csv -- no errors found
 
 
@@ -21,16 +21,18 @@ negative 	227
 Confusion table:
 gs \ pred| positive| negative|  neutral
 ---------------------------------------
- positive|      195|       43|       85
- negative|       15|      174|       38
-  neutral|       25|       15|       74
+ positive|      199|       46|       78
+ negative|       19|      172|       36
+  neutral|       26|       11|       77
 
 
 Scores:
 class	                       prec	              recall     fscore
-positive 	   (195/235) 0.8298	    (195/323) 0.6037	 0.6989	
-negative 	   (174/232) 0.7500	    (174/227) 0.7665	 0.7582	
-neutral 	    (74/197) 0.3756	     (74/114) 0.6491	 0.4759	
+positive 	   (199/244) 0.8156	    (199/323) 0.6161	 0.7019	
+negative 	   (172/229) 0.7511	    (172/227) 0.7577	 0.7544	
+neutral 	    (77/191) 0.4031	     (77/114) 0.6754	 0.5049	
 -----------------------------------------------------------------------
-average(pos and neg)                                             0.7285	
-
+average(pos and neg)                                             0.7282	
+average(All)                                                     0.6537	
+-----------------------------------------------------------------------
+Precision: 0.674699

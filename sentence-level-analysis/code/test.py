@@ -152,16 +152,18 @@ from featureExtractor import *
 #     # print S140vec, NRCvec
 #     if cnt > 20:
 #         exit(0)
-word = "@gwg"
-if not (word.startswith("@") or word.startswith("http://")):
-    print word
-
-word = "http://fwefqwe"
-if not (word.startswith("@") or word.startswith("http://")):
-    print word
-
-word = "GW23EW"
-if not (word.startswith("@") or word.startswith("http://")):
-    print word
-
-print word.lower()
+# word = "@gwg"
+# if not (word.startswith("@") or word.startswith("http://")):
+#     print word
+#
+# word = "http://fwefqwe"
+# if not (word.startswith("@") or word.startswith("http://")):
+#     print word
+#
+# word = "GW23EW"
+# if not (word.startswith("@") or word.startswith("http://")):
+#     print word
+#
+# print word.lower()
+for i in xrange(1, 4):
+    print i

@@ -4,9 +4,9 @@ File: ../code/ans_sms.txt -- no errors found
 Prediction file: 2094 lines
                  2094 unique
 Breakdown by class:
-positive 	352
-neutral 	1408
-negative 	334
+positive 	486
+neutral 	1163
+negative 	445
 File: ../dataset/sms-test-gold-B.csv -- no errors found
 
 
@@ -21,15 +21,15 @@ negative 	394
 Confusion table:
 gs \ pred| positive| negative|  neutral
 ---------------------------------------
- positive|      282|       47|      163
- negative|       16|      215|      163
-  neutral|       54|       72|     1082
+ positive|      321|       63|      108
+ negative|       28|      258|      108
+  neutral|      137|      124|      947
 
 
 Scores:
 class	                       prec	              recall     fscore
-positive 	   (282/352) 0.8011	    (282/492) 0.5732	 0.6682	
-negative 	   (215/334) 0.6437	    (215/394) 0.5457	 0.5907	
-neutral 	 (1082/1408) 0.7685	  (1082/1208) 0.8957	 0.8272	
+positive 	   (321/486) 0.6605	    (321/492) 0.6524	 0.6564	
+negative 	   (258/445) 0.5798	    (258/394) 0.6548	 0.6150	
+neutral 	  (947/1163) 0.8143	   (947/1208) 0.7839	 0.7988	
 -----------------------------------------------------------------------
-average(pos and neg)                                             0.6295
+average(pos and neg)                                             0.6357	

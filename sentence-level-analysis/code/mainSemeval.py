@@ -15,16 +15,16 @@ def findScore(words, vector):
     PosNRCVector, tmplist = findUniScore(words, NRCUnigram, vec)
     vector = vector + PosNRCVector
 
-    # PosLiuBingVector = findManualLexiconScore(words, LiuBingDict)
-    # vector = vector + PosLiuBingVector
-    # PosMPQAVector = findManualLexiconScore(words, MPQADict)
-    # vector = vector + PosMPQAVector
-    # PosNRCEmoticonVector = findManualLexiconScore(words, NRCEmotionDict)
-    # vector = vector + PosNRCEmoticonVector
-    # PosPosNegWordsVector = findManualLexiconScore(words, PosNegWords)
-    # vector = vector + PosPosNegWordsVector
-    # PosAFINNVector = findAFINNScore(words, AFINNDict)
-    # vector = vector + PosAFINNVector
+    PosLiuBingVector = findManualLexiconScore(words, LiuBingDict)
+    vector = vector + PosLiuBingVector
+    PosMPQAVector = findManualLexiconScore(words, MPQADict)
+    vector = vector + PosMPQAVector
+    PosNRCEmoticonVector = findManualLexiconScore(words, NRCEmotionDict)
+    vector = vector + PosNRCEmoticonVector
+    PosPosNegWordsVector = findManualLexiconScore(words, PosNegWords)
+    vector = vector + PosPosNegWordsVector
+    PosAFINNVector = findAFINNScore(words, AFINNDict)
+    vector = vector + PosAFINNVector
     # print vector
     return vector
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
                 vector = []
                 # vector, polarityDictionary = findFeatures(tweet, token, polarityDictionary, stopWords, emoticonsDict,
                 #                                           acronymDict)
-                vector, words, hashtags, tweet1 = findFeatures1(tweet, token, stopWords, emoticonsDict,
+                vector, words, hashtags, tweet = findFeatures1(tweet, token, stopWords, emoticonsDict,
                                                           acronymDict, intensifiers)
 
                 #find context feature
@@ -124,8 +124,8 @@ if __name__ == '__main__':
                 NRCEmotionVector = findManualLexiconScore(tweet, NRCEmotionDict)
                 vector.extend(NRCEmotionVector)
 
-                # PosNegWordsVector = findManualLexiconScore(tweet, PosNegWords)
-                # vector.extend(PosNegWordsVector)
+                PosNegWordsVector = findManualLexiconScore(tweet, PosNegWords)
+                vector.extend(PosNegWordsVector)
 
                 AFINNVector = findAFINNScore(tweet, AFINNDict)
                 vector.extend(AFINNVector)
@@ -157,7 +157,7 @@ if __name__ == '__main__':
                 vector = []
                 # vector, polarityDictionary = findFeatures(tweet, token, polarityDictionary, stopWords, emoticonsDict,
                 #                                           acronymDict)
-                vector, words, hashtags, tweet1 = findFeatures1(tweet, token, stopWords, emoticonsDict,
+                vector, words, hashtags, tweet = findFeatures1(tweet, token, stopWords, emoticonsDict,
                                                           acronymDict, intensifiers)
 
                 #find context feature
@@ -206,8 +206,8 @@ if __name__ == '__main__':
                 NRCEmotionVector = findManualLexiconScore(tweet, NRCEmotionDict)
                 vector.extend(NRCEmotionVector)
 
-                # PosNegWordsVector = findManualLexiconScore(tweet, PosNegWords)
-                # vector.extend(PosNegWordsVector)
+                PosNegWordsVector = findManualLexiconScore(tweet, PosNegWords)
+                vector.extend(PosNegWordsVector)
 
                 AFINNVector = findAFINNScore(tweet, AFINNDict)
                 vector.extend(AFINNVector)
